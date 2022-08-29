@@ -35,7 +35,7 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 ```
 The MIT License (MIT)
 
-Copyright (c) 2016 Pagar.me Pagamentos S/A
+Copyright (c) 2022 Daniel Farrell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
