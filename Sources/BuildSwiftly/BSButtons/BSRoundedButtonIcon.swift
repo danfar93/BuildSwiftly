@@ -1,6 +1,6 @@
 //
-//  BSRoundedButton.swift
-//
+//  BSRoundedButtonIcon.swift
+//  
 //
 //  Created by Daniel Farrell on 28/08/2022.
 //
@@ -11,15 +11,19 @@ import SwiftUI
 // TODO: should we have 1 base button and create button Styles ??
 // TODO: add font size, weight & name
 
-struct BSRoundedButton: View {
+struct BSRoundedButtonIcon: View {
     var text: String
+    var icon: Image
     var tintColor: Color
     var backgroundColor: Color
     var action: (() -> Void)
 
     var body: some View {
         Button(action: action) {
-            Text(text)
+            HStack {
+                Text(text)
+                icon
+            }
             .foregroundColor(tintColor)
             .padding()
             .background(backgroundColor)
@@ -28,14 +32,16 @@ struct BSRoundedButton: View {
     }
 }
 
-struct BSRoundedButton_Previews: PreviewProvider {
+struct BSRoundedButtonIcon_Previews: PreviewProvider {
     static var previews: some View {
-        BSRoundedButton(
-            text: "BS Rounded Button",
+        BSRoundedButtonIcon(
+            text: "BS Rounded Button Icon",
+            icon: Image(systemName: "plus"),
             tintColor: .white,
             backgroundColor: .blue
         ) {
-            print("BS Rounded Button Pressed!")
+            print("BS Rounded Button Icon Pressed!")
         }
     }
 }
+
