@@ -29,9 +29,18 @@ GitHub Actions runs the Build Swiftly tests nightly, here is the latest build st
 
 [//]: contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
 <a href=“https://github.com/danielfarrell-transact”><img src=“https://avatars.githubusercontent.com/danielfarrell-transact” width=“50” height=“50" alt=“Daniel Farrell”/></a>
 
 <a href=“https://github.com/SpoonTheGreater”><img src=“https://avatars.githubusercontent.com/SpoonTheGreater” width=“50” height=“50" alt=“James Sadlier”/></a>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## MIT License
 
