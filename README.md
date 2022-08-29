@@ -6,9 +6,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Build Status](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
 
-
-A SwiftUI Component Library to enable even faster development using custom pre-built SwiftUI components.
-Build Swiftly is available through Swift Package Manager
+Build Swiftly is a Swift Package full of custom, pre-built Swift UI components to enable even faster development of great looking iOS apps.
 
 ## Swift Package Manager 
 
