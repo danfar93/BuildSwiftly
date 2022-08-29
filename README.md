@@ -34,7 +34,7 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 
 ## Changelog
 
-### v0.0.1
+### v0.0.1 (move to CHANGELOG.md)
 - Published Build Swiftly Package 🎉
 
 
