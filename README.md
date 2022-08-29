@@ -27,6 +27,8 @@ GitHub Actions runs the Build Swiftly tests nightly, here is the latest build st
 
 ## Contributors
 
+[//]: contributors
+
 <a href=“https://github.com/danielfarrell-transact”><img src=“https://avatars.githubusercontent.com/danielfarrell-transact” width=“50” height=“50" alt=“Daniel Farrell”/></a>
 
 <a href=“https://github.com/SpoonTheGreater”><img src=“https://avatars.githubusercontent.com/SpoonTheGreater” width=“50” height=“50" alt=“James Sadlier”/></a>
