@@ -24,7 +24,7 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 
 ## Build Status ✅
 
-> GitHub Actions runs the Build Swiftly tests nightly, here is the latest build status:
+GitHub Actions runs the Build Swiftly tests nightly, here is the latest build status:
 
 ![Build Status](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
 
