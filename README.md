@@ -12,7 +12,8 @@ Build Swiftly is available through Swift Package Manager
 
 Add `Build Swiftly` as a Swift Package in Xcode:
 
-- `Xcode` > `File` > `Add Packages` > `https://github.com/danielfarrell-transact/BuildSwiftly` > `Up to Next Major Version`
+`Xcode` > `File` > `Add Packages` 
+> `https://github.com/danielfarrell-transact/BuildSwiftly` > `Up to Next Major Version`
 
 ## Usage
 
