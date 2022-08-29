@@ -3,7 +3,7 @@
 ![Build Swiftly](/BuildSwiftly.png)
 
 ![Build Status](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
-![Version Badge](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
+![Version Badge](https://img.shields.io/badge/Build%20Swiftly-v0.0.1-blue)
 
 
 A SwiftUI Component Library to enable even faster development using custom pre-built SwiftUI components.
