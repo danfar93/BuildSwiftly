@@ -2,9 +2,9 @@
 
 ![Build Swiftly](/BuildSwiftly.png)
 
-![Version Badge](https://img.shields.io/badge/Build%20Swiftly-v0.0.1-blue)
+![Version Badge](https://img.shields.io/badge/Swift%20Package%20Manager-v0.0.1-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Swift Package](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
+![Build Status](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
 
 
 A SwiftUI Component Library to enable even faster development using custom pre-built SwiftUI components.
