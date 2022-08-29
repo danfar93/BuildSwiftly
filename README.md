@@ -10,7 +10,7 @@
 A SwiftUI Component Library to enable even faster development using custom pre-built SwiftUI components.
 Build Swiftly is available through Swift Package Manager
 
-## Swift Package Manager
+## Swift Package Manager 
 
 Add `Build Swiftly` as a Swift Package in Xcode:
 
@@ -22,7 +22,7 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 - `BSRoundedButton()`
 - `BSRoundedButtonIcon()`
 
-## Build Status
+## Build Status ✅
 
 > GitHub Actions runs the Build Swiftly tests nightly, here is the latest build status:
 
@@ -32,11 +32,9 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 
 <a href="https://github.com/danielfarrell-transact"><img src="https://avatars.githubusercontent.com/danielfarrell-transact" width="50" height="50" alt="Daniel Farrell"/></a> <a href="https://github.com/SpoonTheGreater"><img src="https://avatars.githubusercontent.com/SpoonTheGreater" width="50" height="50" alt="James Sadlier"/></a>
 
-## Changelog (move to CHANGELOG.md)
+## Changelog 
 
-### v0.0.1
-- Published Build Swiftly Package 🎉
-
+Check out whats new in the latest release: [Changelog](CHANGELOG.md)
 
 ## MIT License
 
