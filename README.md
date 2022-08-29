@@ -5,6 +5,7 @@
 ![Build Status](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
 ![Version Badge](https://github.com/danielfarrell-transact/BuildSwiftly/actions/workflows/nightly.yml/badge.svg)
 
+
 A SwiftUI Component Library to enable even faster development using custom pre-built SwiftUI components.
 Build Swiftly is available through Swift Package Manager
 
@@ -18,7 +19,7 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 ## Usage
 
 - `BSRoundedButton()`
-- `BSTextField()`
+- `BSRoundedButtonIcon()`
 
 ## Build Status
 
