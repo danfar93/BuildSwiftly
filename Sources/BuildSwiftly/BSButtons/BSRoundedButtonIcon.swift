@@ -11,14 +11,22 @@ import SwiftUI
 // TODO: should we have 1 base button and create button Styles ??
 // TODO: add font size, weight & name
 
-struct BSRoundedButtonIcon: View {
+public struct BSRoundedButtonIcon: View {
     var text: String
     var icon: Image
     var tintColor: Color
     var backgroundColor: Color
     var action: (() -> Void)
 
-    var body: some View {
+    public init(text: String, icon: Image, tintColor: Color, backgroundColor: Color, action: @escaping () -> Void) {
+        self.text = text
+        self.icon = icon
+        self.tintColor = tintColor
+        self.backgroundColor = backgroundColor
+        self.action = action
+    }
+
+    public var body: some View {
         Button(action: action) {
             HStack {
                 Text(text)
