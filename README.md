@@ -31,14 +31,15 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 
 - `BSRoundedButtonIcon()`
 
-```            BSRoundedButtonIcon(
-                text: "BS Rounded Button Icon",
-                icon: Image(systemName: "info.circle"),
-                tintColor: .white,
-                backgroundColor: .blue
-            ) {
-                print("BS Rounded Button Icon Pressed!")
-            }
+```            
+        BSRoundedButtonIcon(
+            text: "BS Rounded Button Icon",
+            icon: Image(systemName: "info.circle"),
+            tintColor: .white,
+            backgroundColor: .blue
+        ) {
+            print("BS Rounded Button Icon Pressed!")
+        }
 ```
 
 ## Build Status ✅
