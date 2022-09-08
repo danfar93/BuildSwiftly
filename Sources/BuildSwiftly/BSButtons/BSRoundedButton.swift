@@ -11,6 +11,8 @@ import SwiftUI
 // TODO: should we have 1 base button and create button Styles ??
 // TODO: add font size, weight & name
 
+// TODO: frame - width / height
+
 public struct BSRoundedButton: View {
     var text: String
     var tintColor: Color
@@ -27,11 +29,13 @@ public struct BSRoundedButton: View {
     public var body: some View {
         Button(action: action) {
             Text(text)
+                //.frame(width: 300, height: 50, alignment: .center)
             .foregroundColor(tintColor)
             .padding()
             .background(backgroundColor)
             .cornerRadius(30)
         }
+        .frame(width: 300, height: 50, alignment: .center)
     }
 }
 

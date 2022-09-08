@@ -17,6 +17,8 @@ Add `Build Swiftly` as a Swift Package in Xcode:
 
 ## Usage
 
+### BSButtons
+
 - `BSRoundedButton()`
 
 ```
@@ -41,6 +43,17 @@ Add `Build Swiftly` as a Swift Package in Xcode:
             print("BS Rounded Button Icon Pressed!")
         }
 ```
+
+### BSTextFields
+
+
+
+
+
+
+
+
+
 
 ## Build Status ✅
 

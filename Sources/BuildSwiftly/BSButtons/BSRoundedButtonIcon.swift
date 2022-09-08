@@ -11,6 +11,8 @@ import SwiftUI
 // TODO: should we have 1 base button and create button Styles ??
 // TODO: add font size, weight & name
 
+// TODO: frame - width / height
+
 public struct BSRoundedButtonIcon: View {
     var text: String
     var icon: Image
