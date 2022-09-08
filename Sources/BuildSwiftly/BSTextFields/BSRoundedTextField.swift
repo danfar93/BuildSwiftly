@@ -14,7 +14,6 @@ public struct BSRoundedTextFieldIcon: View {
     @State var text = ""
     @State private var password: String = ""
 
-
     var placeholderText: String
     var icon: Image
     var textColor: Color

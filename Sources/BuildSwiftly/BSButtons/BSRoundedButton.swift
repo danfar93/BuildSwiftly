@@ -29,7 +29,7 @@ public struct BSRoundedButton: View {
     public var body: some View {
         Button(action: action) {
             Text(text)
-                //.frame(width: 300, height: 50, alignment: .center)
+                .frame(minWidth: 0, maxWidth: 220, minHeight: 0, maxHeight: 50)
             .foregroundColor(tintColor)
             .padding()
             .background(backgroundColor)
