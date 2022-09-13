@@ -26,6 +26,7 @@ struct BSComponentsView: View {
           backgroundColor: Color(uiColor: .systemGray5),
           isSecureField: true)
       }
+      .listRowSeparator(.hidden)
 
       Section(header: Text("TextFields")) {
         BSRoundedTextField(
@@ -40,6 +41,7 @@ struct BSComponentsView: View {
           backgroundColor: Color(uiColor: .systemGray5),
           isSecureField: true)
       }
+      .listRowSeparator(.hidden)
 
       Section(header: Text("Buttons with Icons")) {
         BSRoundedButtonIconRight(
@@ -60,6 +62,7 @@ struct BSComponentsView: View {
           print("BS Rounded Button Icon Pressed!")
         }
       }
+      .listRowSeparator(.hidden)
 
       Section(header: Text("Buttons")) {
         BSRoundedButton(
@@ -70,6 +73,7 @@ struct BSComponentsView: View {
           print("BS Rounded Button Pressed!")
         }
       }
+      .listRowSeparator(.hidden)
 
       Section(header: Text("Cells")) {
         BSInfoCell(image: Image("profile"),
@@ -83,6 +87,7 @@ struct BSComponentsView: View {
                cardHeight: 70,
                cornerRadius: 16)
       }
+      .listRowSeparator(.hidden)
       
       Section(header: Text("Cards")) {
         BSPhotoCard(image: Image("paris"),
@@ -106,9 +111,11 @@ struct BSComponentsView: View {
                           cardHeight: 220,
                           cornerRadius: 16)
       }
+      .listRowSeparator(.hidden)
     }
-    .listRowSeparator(.hidden)
-    .listSectionSeparator(.hidden)
+    .listStyle(.sidebar)
+    .foregroundColor(.black)
+    
   }
 }
 

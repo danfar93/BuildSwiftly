@@ -37,7 +37,6 @@ public struct BSInfoCell: View {
   public var body: some View {
     ZStack(alignment: .leading) {
       RoundedRectangle(cornerRadius: cornerRadius)
-        .shadow(color: .gray, radius: 2, x: 5, y: 5)
         .frame(width: cardWidth, height: cardHeight, alignment: .leading)
         .foregroundColor(backgroundColor)
       HStack {
