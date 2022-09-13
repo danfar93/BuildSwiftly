@@ -8,6 +8,8 @@
 import Foundation
 import SwiftUI
 
+// TODO: pass in enum to determine if we show a ribbon, footer, left or right info view
+
 public struct BSPhotoCard: View {
   
   var image: Image
