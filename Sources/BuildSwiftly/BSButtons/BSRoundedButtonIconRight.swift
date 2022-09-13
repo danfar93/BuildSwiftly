@@ -13,7 +13,7 @@ import SwiftUI
 
 // TODO: frame - width / height
 
-public struct BSRoundedButtonIcon: View {
+public struct BSRoundedButtonIconRight: View {
     var text: String
     var icon: Image
     var tintColor: Color
@@ -42,9 +42,9 @@ public struct BSRoundedButtonIcon: View {
     }
 }
 
-struct BSRoundedButtonIcon_Previews: PreviewProvider {
+struct BSRoundedButtonIconRight_Previews: PreviewProvider {
     static var previews: some View {
-        BSRoundedButtonIcon(
+        BSRoundedButtonIconRight(
             text: "BS Rounded Button Icon",
             icon: Image(systemName: "plus"),
             tintColor: .white,

@@ -1,5 +1,5 @@
 //
-//  BSRoundedButton.swift
+//  BSRoundedButtonIconLeft.swift
 //
 //
 //  Created by Daniel Farrell on 28/08/2022.
@@ -13,14 +13,16 @@ import SwiftUI
 
 // TODO: frame - width / height
 
-public struct BSRoundedButton: View {
+public struct BSRoundedButtonIconLeft: View {
     var text: String
+    var icon: Image
     var tintColor: Color
     var backgroundColor: Color
     var action: (() -> Void)
 
-    public init(text: String, tintColor: Color, backgroundColor: Color, action: @escaping () -> Void) {
+    public init(text: String, icon: Image, tintColor: Color, backgroundColor: Color, action: @escaping () -> Void) {
         self.text = text
+        self.icon = icon
         self.tintColor = tintColor
         self.backgroundColor = backgroundColor
         self.action = action
@@ -28,7 +30,10 @@ public struct BSRoundedButton: View {
 
     public var body: some View {
         Button(action: action) {
-            Text(text)
+            HStack {
+                icon
+                Text(text)
+            }
             .foregroundColor(tintColor)
             .padding()
             .background(backgroundColor)
@@ -37,14 +42,16 @@ public struct BSRoundedButton: View {
     }
 }
 
-struct BSRoundedButton_Previews: PreviewProvider {
+struct BSRoundedButtonIconLeft_Previews: PreviewProvider {
     static var previews: some View {
-        BSRoundedButton(
-            text: "BS Rounded Button",
+        BSRoundedButtonIconLeft(
+            text: "BS Rounded Button Icon",
+            icon: Image(systemName: "plus"),
             tintColor: .white,
             backgroundColor: .blue
         ) {
-            print("BS Rounded Button Pressed!")
+            print("BS Rounded Button Icon Pressed!")
         }
     }
 }
+
