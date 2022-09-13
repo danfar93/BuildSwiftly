@@ -54,4 +54,3 @@ struct BSRoundedButtonIconLeft_Previews: PreviewProvider {
         }
     }
 }
-
