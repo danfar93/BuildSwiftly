@@ -48,7 +48,7 @@ struct BSComponentsView: View {
           text: "BS Rounded Button Icon",
           icon: Image(systemName: "info.circle"),
           tintColor: .white,
-          backgroundColor: .blue
+          backgroundColor: BSColors.success
         ) {
           print("BS Rounded Button Icon Pressed!")
         }
