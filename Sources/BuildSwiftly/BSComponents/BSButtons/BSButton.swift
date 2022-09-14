@@ -1,5 +1,5 @@
 //
-//  BSRoundedButton.swift
+//  BSButton.swift
 //
 //
 //  Created by Daniel Farrell on 28/08/2022.
@@ -11,7 +11,7 @@ import SwiftUI
 // TODO: add font size, weight & name
 // TODO: pass in corner radius
 
-public struct BSRoundedButton: View {
+public struct BSButton: View {
   var text: String
   var tintColor: Color
   var backgroundColor: Color
@@ -65,10 +65,10 @@ public struct BSRoundedButton: View {
   }
 }
 
-struct BSRoundedButton_Previews: PreviewProvider {
+struct BSButton_Previews: PreviewProvider {
   static var previews: some View {
     VStack {
-      BSRoundedButton(
+      BSButton(
         text: "BS Rounded Button",
         tintColor: .white,
         backgroundColor: .blue,
@@ -79,7 +79,7 @@ struct BSRoundedButton_Previews: PreviewProvider {
         print("BS Rounded Button Pressed!")
       }
       
-      BSRoundedButton(
+      BSButton(
         text: "BS Rounded Button",
         tintColor: .white,
         backgroundColor: .blue,
@@ -92,7 +92,7 @@ struct BSRoundedButton_Previews: PreviewProvider {
         print("BS Rounded Button Pressed!")
       }
       
-      BSRoundedButton(
+      BSButton(
         text: "BS Rounded Button",
         tintColor: .white,
         backgroundColor: .blue,
@@ -105,7 +105,7 @@ struct BSRoundedButton_Previews: PreviewProvider {
         print("BS Rounded Button Pressed!")
       }
       
-      BSRoundedButton(
+      BSButton(
         text: "BS Rounded Button",
         tintColor: .white,
         backgroundColor: .blue,
@@ -118,7 +118,7 @@ struct BSRoundedButton_Previews: PreviewProvider {
         print("BS Rounded Button Pressed!")
       }
       
-      BSRoundedButton(
+      BSButton(
         text: "BS Rounded Button",
         tintColor: .white,
         backgroundColor: .blue,
