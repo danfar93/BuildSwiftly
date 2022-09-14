@@ -8,19 +8,20 @@
 import Foundation
 import SwiftUI
 
-// TODO: should we have 1 base button and create button Styles ??
 // TODO: add font size, weight & name
-
-// TODO: frame - width / height
+// TODO: pass in corner radius
 
 public struct BSRoundedButton: View {
   var text: String
   var tintColor: Color
   var backgroundColor: Color
-  var action: (() -> Void)
   var imageOptions: ButtonImageOptions
   var firstIcon: Image?
   var secondIcon: Image?
+  var buttonWidth: CGFloat
+  var buttonHeight: CGFloat
+  var cornerRadius: CGFloat
+  var action: (() -> Void)
   
   public init(text: String,
               tintColor: Color,
@@ -28,14 +29,20 @@ public struct BSRoundedButton: View {
               imageOptions: ButtonImageOptions = .none,
               icon: Image? = nil,
               secondIcon: Image? = nil,
+              buttonWidth: CGFloat,
+              buttonHeight: CGFloat,
+              cornerRadius: CGFloat,
               action: @escaping () -> Void) {
     self.text = text
     self.tintColor = tintColor
     self.backgroundColor = backgroundColor
-    self.action = action
     self.imageOptions = imageOptions
     self.firstIcon = icon
     self.secondIcon = secondIcon
+    self.buttonWidth = buttonWidth
+    self.buttonHeight = buttonHeight
+    self.cornerRadius = cornerRadius
+    self.action = action
   }
   
   public var body: some View {
@@ -49,12 +56,12 @@ public struct BSRoundedButton: View {
         if imageOptions.contains(.imageRight) {
           secondIcon ?? firstIcon
         }
-      }
+      }.frame(width: buttonWidth, height: buttonHeight)
     }
     .foregroundColor(tintColor)
     .padding()
     .background(backgroundColor)
-    .cornerRadius(30)
+    .cornerRadius(cornerRadius)
   }
 }
 
@@ -64,7 +71,10 @@ struct BSRoundedButton_Previews: PreviewProvider {
       BSRoundedButton(
         text: "BS Rounded Button",
         tintColor: .white,
-        backgroundColor: .blue
+        backgroundColor: .blue,
+        buttonWidth: 300,
+        buttonHeight: 20,
+        cornerRadius: 30
       ) {
         print("BS Rounded Button Pressed!")
       }
@@ -74,7 +84,10 @@ struct BSRoundedButton_Previews: PreviewProvider {
         tintColor: .white,
         backgroundColor: .blue,
         imageOptions: .imageLeft,
-        icon: Image(systemName: "plus")
+        icon: Image(systemName: "plus"),
+        buttonWidth: 300,
+        buttonHeight: 20,
+        cornerRadius: 30
       ) {
         print("BS Rounded Button Pressed!")
       }
@@ -84,17 +97,10 @@ struct BSRoundedButton_Previews: PreviewProvider {
         tintColor: .white,
         backgroundColor: .blue,
         imageOptions: .imageRight,
-        icon: Image(systemName: "plus")
-      ) {
-        print("BS Rounded Button Pressed!")
-      }
-      
-      BSRoundedButton(
-        text: "BS Rounded Button",
-        tintColor: .white,
-        backgroundColor: .blue,
-        imageOptions: .all,
-        icon: Image(systemName: "plus")
+        icon: Image(systemName: "plus"),
+        buttonWidth: 300,
+        buttonHeight: 20,
+        cornerRadius: 30
       ) {
         print("BS Rounded Button Pressed!")
       }
@@ -105,7 +111,23 @@ struct BSRoundedButton_Previews: PreviewProvider {
         backgroundColor: .blue,
         imageOptions: .all,
         icon: Image(systemName: "plus"),
-        secondIcon: Image(systemName: "minus")
+        buttonWidth: 300,
+        buttonHeight: 20,
+        cornerRadius: 30
+      ) {
+        print("BS Rounded Button Pressed!")
+      }
+      
+      BSRoundedButton(
+        text: "BS Rounded Button",
+        tintColor: .white,
+        backgroundColor: .blue,
+        imageOptions: .all,
+        icon: Image(systemName: "plus"),
+        secondIcon: Image(systemName: "minus"),
+        buttonWidth: 300,
+        buttonHeight: 20,
+        cornerRadius: 30
       ) {
         print("BS Rounded Button Pressed!")
       }
