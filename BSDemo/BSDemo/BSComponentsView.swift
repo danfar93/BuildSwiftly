@@ -45,23 +45,69 @@ struct BSComponentsView: View {
       .listRowSeparator(.hidden)
       .listRowBackground(EmptyView())
 
-      Section(header: Text("Buttons with Icons")) {
-        BSRoundedButtonIconRight(
-          text: "BS Rounded Button Icon",
-          icon: Image(systemName: "info.circle"),
+      Section(header: Text("Rounded Buttons")) {
+        BSRoundedButton(
+          text: "BS Rounded Button",
           tintColor: .white,
-          backgroundColor: .blue
+          backgroundColor: .blue,
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 30
         ) {
-          print("BS Rounded Button Icon Pressed!")
+          print("BS Rounded Button Pressed!")
         }
-
-        BSRoundedButtonIconLeft(
-          text: "BS Rounded Button Icon",
-          icon: Image(systemName: "info.circle"),
+        
+        BSRoundedButton(
+          text: "BS Rounded Button",
           tintColor: .white,
-          backgroundColor: .blue
+          backgroundColor: .blue,
+          imageOptions: .imageLeft,
+          icon: Image(systemName: "plus"),
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 30
         ) {
-          print("BS Rounded Button Icon Pressed!")
+          print("BS Rounded Button Pressed!")
+        }
+        
+        BSRoundedButton(
+          text: "BS Rounded Button",
+          tintColor: .white,
+          backgroundColor: .blue,
+          imageOptions: .imageRight,
+          icon: Image(systemName: "plus"),
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 30
+        ) {
+          print("BS Rounded Button Pressed!")
+        }
+        
+        BSRoundedButton(
+          text: "BS Rounded Button",
+          tintColor: .white,
+          backgroundColor: .blue,
+          imageOptions: .all,
+          icon: Image(systemName: "plus"),
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 30
+        ) {
+          print("BS Rounded Button Pressed!")
+        }
+        
+        BSRoundedButton(
+          text: "BS Rounded Button",
+          tintColor: .white,
+          backgroundColor: .blue,
+          imageOptions: .all,
+          icon: Image(systemName: "plus"),
+          secondIcon: Image(systemName: "minus"),
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 30
+        ) {
+          print("BS Rounded Button Pressed!")
         }
       }
       .listRowSeparator(.hidden)
@@ -71,7 +117,21 @@ struct BSComponentsView: View {
         BSRoundedButton(
           text: "BS Rounded Button",
           tintColor: .white,
-          backgroundColor: .blue
+          backgroundColor: .blue,
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 20
+        ) {
+          print("BS Rounded Button Pressed!")
+        }
+        
+        BSRoundedButton(
+          text: "BS Rounded Button",
+          tintColor: .white,
+          backgroundColor: .blue,
+          buttonWidth: 250,
+          buttonHeight: 20,
+          cornerRadius: 10
         ) {
           print("BS Rounded Button Pressed!")
         }
