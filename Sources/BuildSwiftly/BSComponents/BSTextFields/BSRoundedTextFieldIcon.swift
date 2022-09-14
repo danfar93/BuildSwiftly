@@ -9,6 +9,9 @@ import Foundation
 import SwiftUI
 
 public struct BSRoundedTextFieldIcon: View {
+  
+    // TODO: Frame - width, height & alignment
+    // TODO: add a specific configurations for with credit card & phone number formatting
 
     @State var text = ""
     @State private var password: String = ""
@@ -18,8 +21,6 @@ public struct BSRoundedTextFieldIcon: View {
     var textColor: Color
     var backgroundColor: Color
     var isSecureField: Bool
-
-    // TODO: Frame - width, height & alignment
 
     public init(placeholderText: String, icon: Image, textColor: Color, backgroundColor: Color, isSecureField: Bool) {
         self.placeholderText = placeholderText
