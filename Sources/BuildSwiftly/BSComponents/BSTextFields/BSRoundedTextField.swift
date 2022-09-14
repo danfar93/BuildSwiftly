@@ -18,6 +18,7 @@ public struct BSRoundedTextField: View {
   var backgroundColor: Color
   var isSecureField: Bool
   
+  // TODO: add a specific configurations for with credit card & phone number formatting
   // TODO: Frame - width, height & alignment
   
   public init(placeholderText: String, textColor: Color, backgroundColor: Color, isSecureField: Bool) {
