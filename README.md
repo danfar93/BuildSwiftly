@@ -63,11 +63,7 @@ GitHub Actions runs the Build Swiftly tests nightly, here is the latest build st
 
 ## Contributors
 
-<a href="https://github.com/danielfarrell-transact"><img src="https://avatars.githubusercontent.com/danielfarrell-transact" width="50" height="50" alt="Daniel Farrell"/></a> <a href="https://github.com/SpoonTheGreater"><img src="https://avatars.githubusercontent.com/SpoonTheGreater" width="50" height="50" alt="James Sadlier"/></a>
-
-## Changelog 
-
-Check out whats new in the latest release: [Changelog](CHANGELOG.md)
+<a href="https://github.com/danfar93"><img src="https://avatars.githubusercontent.com/danfar93" width="50" height="50" alt="Daniel Farrell"/></a> <a href="https://github.com/SpoonTheGreater"><img src="https://avatars.githubusercontent.com/SpoonTheGreater" width="50" height="50" alt="James Sadlier"/></a>
 
 ## MIT License
 
